@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moq.EF", "Moq.EF\Moq.EF.csproj", "{12F77FFD-5A6A-429B-80A1-FCCD36FD5D6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moq.EF.Tests", "Moq.EF.Tests\Moq.EF.Tests.csproj", "{93AC4F70-EBCB-47EA-8223-6A75638537AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6E2A2F62-EE5F-4D12-92BC-9A1A0ADAB627}"
+	ProjectSection(SolutionItems) = preProject
+		..\pkg\Moq.EF.nuspec = ..\pkg\Moq.EF.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12F77FFD-5A6A-429B-80A1-FCCD36FD5D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F77FFD-5A6A-429B-80A1-FCCD36FD5D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F77FFD-5A6A-429B-80A1-FCCD36FD5D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F77FFD-5A6A-429B-80A1-FCCD36FD5D6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93AC4F70-EBCB-47EA-8223-6A75638537AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93AC4F70-EBCB-47EA-8223-6A75638537AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93AC4F70-EBCB-47EA-8223-6A75638537AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93AC4F70-EBCB-47EA-8223-6A75638537AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {200E44DF-28AE-43B9-9FF4-7A3EF8ED4C59}
+	EndGlobalSection
+EndGlobal

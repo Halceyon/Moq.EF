@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Moq.EF</id>
+    <version>0.0.0.1</version>
+    <title>Moq.EF</title>
+    <authors>Craig Pretorius</authors>
+    <owners>
+    </owners>
+    <description>
+      Easily mock Entity Framework with MOQ using either JSON or an ENumerable items.
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      Easily mock Entity Framework with MOQ using either JSON or an ENumerable items.
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://github.com/Halceyon/Moq.EF</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/Halceyon/Moq.EF/blob/master/LICENSE</licenseUrl>
+    <copyright>Copyright Code HQ (Pty) Ltd 2018</copyright>
+    <dependencies>
+      <dependency id="EntityFramework" version="6.2.0" />
+      <dependency id="Moq" version="4.10.0" />
+      <dependency id="Newtonsoft.Json" version="11.0.2" />
+    </dependencies>
+    <references>
+    </references>
+    <tags>
+    </tags>
+  </metadata>
+  <files>
+    <file src="..\src\Moq.EF\bin\Release\Moq.EF.dll" target="lib\net462\" />
+  </files>
+</package>
