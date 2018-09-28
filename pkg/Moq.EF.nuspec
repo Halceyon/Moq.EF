@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>Moq.EF</id>
+    <id>Mock.EntityFramework</id>
     <version>0.0.0.1</version>
-    <title>Moq.EF</title>
+    <title>Mock.EntityFramework</title>
     <authors>Craig Pretorius</authors>
     <owners>
     </owners>
